@@ -1,7 +1,7 @@
 
 export const mg = {
   app: {
-    title: '🚀 Mpanombatombana Crash Gemini',
+    title: '🚀 Crash Gemini',
     showGuide: 'Torolàlana',
     hideGuide: 'Hidio',
     openSettings: 'Sokafy ny paramètre',
@@ -15,7 +15,7 @@ export const mg = {
     sessionStart: 'Ora fanombohan’ny session (HH:MM:SS)',
     set: 'Ampiharo',
     generate: 'Hamoaka vinavina vaovao',
-    useRealTime: "Hamoaka avy amin'ny ora tena misy ankehitriny",
+    useRealTime: "Hamoaka avy amin'ny ora ankehitriny",
     history: 'Tantara',
     downloadCsv: 'Alaivo ny CSV an’ny session',
     loadCsv: 'Ampidiro CSV an’ny session',
@@ -52,20 +52,20 @@ export const mg = {
     last: 'Farany',
     currentMinute: 'Minitra ankehitriny',
     current5Mins: '5 min ankehitriny',
-    currentQuarter: 'Telovolana ankehitriny',
+    currentQuarter: 'Fefakadiny ankehitriny',
     currentHour: 'Ora ankehitriny',
   },
   localAnalysis: {
     title: 'Paikady Mifototra amin\'ny Fitsipika',
-    default: 'Mety hisy vokatra isan-karazany. Mitandrema rehefa miloka.',
-    low_many: 'Ny sandany ambany maro dia manoro hevitra ny hiloka **Ambany (< 2.00x)**.',
-    low_range: 'Diniho ny filokana amin\'ny elanelana manodidina ny **{min}x - {max}x**.',
-    medium_high: 'Manoro hevitra ny hiloka **Ambony (>= 2.00x)**.',
+    default: 'Mety hisy vokatra isan-karazany. Mitandrema .',
+    low_many: 'Ny sandany ambany maro safidio **Ambany (< 2.00x)**.',
+    low_range: 'Safidio ny amin\'ny elanelana manodidina ny **{min}x - {max}x**.',
+    medium_high: 'Safidio **Ambony (>= 2.00x)**.',
     medium_range: 'Ny elanelana mety dia **2.00x - 3.00x**.',
     medium_timed: 'Matetika ity lamina ity dia matanjaka kokoa ao anatin\'ny 10 segondra voalohany/farany amin\'ny minitra iray.',
-    good_range: 'Ny elanelana kendrena tsara dia **3.00x - 4.00x**.',
-    high_target: 'Misy tsara ny mety hisian\'ny filokana amin\'ny **Tanjona Avo**.',
-    high_safety: 'Mba ho fiarovana, diniho ny maka ny vola manodidina ny **3.00x**.'
+    good_range: 'Safidio elanelana kendrena tdia **3.00x - 4.00x**.',
+    high_target: 'Afaka andramana taritina **Tanjona Avo**.',
+    high_safety: 'Mba ho fiarovana, ataovy automatique **3.00x**.'
   },
   gemini: {
     title: 'Famakafakana Gemini AI',
@@ -85,11 +85,11 @@ Ny tadin'ny famakafakana dia tokony hanoro ny paikady tokana tsara indrindra ary
 
 Aza asiana lahatsoratra ivelan'ny objet JSON.`,
     strat1: 'Ambany/Ambony',
-    strat1Desc: 'Miloka raha ho latsaky ny 2.00x (Ambany) na mihoatra na mitovy amin’ny 2.00x (Ambony) ny vokatra.',
+    strat1Desc: 'Misafidy raha ho latsaky ny 2.00x (Ambany) na mihoatra na mitovy amin’ny 2.00x (Ambony) ny vokatra.',
     strat2: 'Elanelana',
-    strat2Desc: 'Miloka amin’ny vokatra ao anatin’ny elanelana iray (ohatra, eo anelanelan’ny 1.40x sy 1.90x).',
+    strat2Desc: 'Misafidy amin’ny vokatra ao anatin’ny elanelana iray (ohatra, eo anelanelan’ny 1.40x sy 1.90x).',
     strat3: 'Tanjona',
-    strat3Desc: 'Mikendry mpampitombo avo lenta manokana, manantena tombony lehibe.',
+    strat3Desc: 'Mikendry avo lenta, manantena tombony lehibe.',
     promptHeader: `Fakafakao ny angona vinavina manaraka, izay omena amin'ny endrika objet JSON izay misy ny lakile minitra sy ny sanda dia ny lisitry ny mpampitombo voavinavina. Avereno objet JSON miaraka amin'ny famakafakanao stratejika isan-minitra.
 
 Angona vinavina: {forecastData}`,
